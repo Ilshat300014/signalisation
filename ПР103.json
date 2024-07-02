@@ -1,0 +1,92 @@
+{
+  "categories": [
+    {
+      "tag": "2ea205da-1664-4eef-a39d-60f759b78861",
+      "name": {
+        "ru-RU": "Сетевые переменные",
+        "en-US": "Network variables"
+      },
+      "child_categories": []
+    }
+  ],
+  "parameters": [
+    {
+      "code": "P16385",
+      "read_function": "3",
+      "write_function": "16",
+      "address": "4001",
+      "device_format": "uint16",
+      "register_least_byte_first": false,
+      "least_register_first": true,
+      "measure": "none",
+      "precision": 0,
+      "multiplier": "1.0000000",
+      "bitmask_enabled": false,
+      "bitmask_value": null,
+      "name": {
+        "ru-RU": "alarm_geom",
+        "en-US": "alarm_geom"
+      },
+      "in_operative": true,
+      "in_configuration": false,
+      "in_manageable": false,
+      "in_parameters": true,
+      "in_tables": false,
+      "in_graphs": false,
+      "in_events": false,
+      "category": "2ea205da-1664-4eef-a39d-60f759b78861"
+    },
+    {
+      "code": "P16386",
+      "read_function": "3",
+      "write_function": "16",
+      "address": "4002",
+      "device_format": "uint16",
+      "register_least_byte_first": false,
+      "least_register_first": true,
+      "measure": "none",
+      "precision": 0,
+      "multiplier": "1.0000000",
+      "bitmask_enabled": false,
+      "bitmask_value": null,
+      "name": {
+        "ru-RU": "alarm_thief",
+        "en-US": "alarm_thief"
+      },
+      "in_operative": true,
+      "in_configuration": false,
+      "in_manageable": false,
+      "in_parameters": true,
+      "in_tables": false,
+      "in_graphs": false,
+      "in_events": false,
+      "category": "2ea205da-1664-4eef-a39d-60f759b78861"
+    },
+    {
+      "code": "P16387",
+      "read_function": "3",
+      "write_function": "16",
+      "address": "4003",
+      "device_format": "uint16",
+      "register_least_byte_first": false,
+      "least_register_first": true,
+      "measure": "none",
+      "precision": 0,
+      "multiplier": "1.0000000",
+      "bitmask_enabled": false,
+      "bitmask_value": null,
+      "name": {
+        "ru-RU": "pwr_110",
+        "en-US": "pwr_110"
+      },
+      "in_operative": true,
+      "in_configuration": false,
+      "in_manageable": false,
+      "in_parameters": true,
+      "in_tables": false,
+      "in_graphs": false,
+      "in_events": false,
+      "category": "2ea205da-1664-4eef-a39d-60f759b78861"
+    }
+  ]
+}
